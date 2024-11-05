@@ -1,0 +1,365 @@
+:root{
+    --green: #59f759;
+    --bg: #000;
+    --shadow: 0 2px 2px rgb(000/0.7);
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: "Work Sans", sans-serif;
+    min-height: 2000px;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/background.jpg);
+    background-size: cover; /* Atur ukuran background image untuk cover */
+    background-position: center; /* Posisikan background image ke tengah */
+    padding-top: calc((15 / 16) * 70%); /* Atur tinggi elemen sesuai rasio 16:9 */
+    z-index: -1;
+    filter: blur();
+}
+
+.hero{
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.lock{
+    display: block;
+}
+
+.hero h1, .hero h4, .hero p {
+    text-shadow: var(--shadow);
+}
+
+.hero h1{
+  
+    font-family: "Great Vibes", cursive;
+    font-size: 5rem;
+}
+.hero h4 {
+    margin-top: 240px;
+    font-size: 1.6rem;
+}
+
+.hero p{
+    font-size: 1.4rem;
+}
+
+.hero a{
+    color: var(--green);
+    background-color: white;
+    box-shadow: var(--shadow);
+    cursor: none;
+    
+}
+
+.hero a:hover{
+    color: white;
+    background-color:var(--green);
+}
+.mynavbar{
+    background-color:rgba(255, 255, 255, 0.3)!important;
+    backdrop-filter: blur(4px);
+}
+
+.mynavbar .offcanvas{
+    height: 100vh;
+}
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title{
+    font-family: "Great Vibes", cursive;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: rgb(61, 155, 7);
+    text-shadow: var(--shadow);
+}
+
+.mynavbar .nav-link{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.home {
+    background-image: url(img/bg.png);
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -6rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
+.home h2, .info h2, .rsvp h2,.gifts h2{
+    color: rgb(61, 155, 7);
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: var(--shadow);
+}
+
+.home h3{
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.home p{
+    color: #302929;
+    font-size: 1.1rem;
+}
+.home .couple{
+    margin-top: 100px;
+}
+.home .couple h3 {
+    color: rgb(61, 155, 7);
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: var(--shadow);
+}
+.home .couple img{
+    width: 100%;
+}
+.home .heart{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(65px);
+}
+.home .heart i{
+    margin: auto;
+    color: rgb(61, 155, 7);
+}
+
+.info{
+    background-color: var(--bg);
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+.info h2{
+    text-shadow: var(--green);
+}
+
+.info .alamat{
+    font-size: 1.1rem;
+}
+
+.info .description{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.info .card {
+    background-color: rgba(255, 255, 255, 0.2)!important;
+    color: white !important;
+    border: 1px solid #999;
+}
+
+.info .card-header {
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.info .card-body {
+    font-size: 1rem;
+}
+
+.info .card-footer {
+    font-size: 1rem;
+    font-weight: 300;
+    border-top: 1px solid #999;
+}
+
+.rsvp{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    background-color: rgb(88, 51, 2);
+
+}
+
+.rsvp h2{
+    font-size: 4.5rem;
+}
+
+.rsvp p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+
+.rsvp form label{
+    color: white;
+
+}
+
+.rsvp button{
+    background-color: var(--green);
+    color:white;
+    border: 1px solid var(--green);
+}
+
+.rsvp button:hover{
+    background-color: white;
+    color:var(--green);
+    border: 1px solid white;
+}
+
+.gifts{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+
+}
+
+.gifts span{
+    text-transform: uppercase;
+    color: #666;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1rem;
+}
+.gifts p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer{
+    padding: 3rem;
+    background-color: rgb(61, 155, 7) ;
+    color: antiquewhite;
+}
+
+footer a{
+    color: var(--bg);
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+}
+
+/* media querry */
+/* Extra large */
+@media (max-width: 1200px){
+    .home .heart{
+        transform: translateX(-50%) translateY(45px);
+    }
+
+
+}
+/* laptop */
+@media (max-width: 992px){
+ html{
+    font-size: 75%;
+ }
+ .simply-countdown > .simply-section {
+    padding: 70px;
+    margin: 10px;
+
+}
+.home .heart{
+    display: none;
+}
+
+.home .couple h3 {
+    font-size: 4rem;
+}
+
+}
+
+/* tablet */
+@media (max-width: 768px){
+    html{
+        font-size: 65%;
+     }
+     .hero h1{
+  
+        font-size: 5rem;
+    }
+    .simply-countdown > .simply-section {
+        padding: 60px;
+        margin: 5px;
+    }
+    .simply-countdown > .simply-section .simply-amount{
+        font-size: 4rem;
+        margin-bottom: 0; /* Adjust this value as needed */
+    }
+    .mynavbar .nav-link{
+       font-size: 2rem;
+       text-align: center;
+    }
+    .hero a{
+       font-size: 1.8rem;
+    }
+    .home .heart{
+        display: none;
+    }
+    .home .couple h3 {
+        font-size: 4rem;
+    }
+    .sticky-top{
+        overflow: hidden;
+    }
+    
+}
+/* mobile phone */
+@media (max-width: 600px){
+    html{
+        font-size: 55%;
+     }
+     .hero h1{
+  
+        font-size: 5rem;
+    }
+    .simply-countdown > .simply-section {
+        padding: 30px;
+        margin: 3px;
+    }
+    .simply-countdown > .simply-section .simply-amount{
+        font-size: 2rem;
+        margin-bottom: 0; /* Adjust this value as needed */
+    }
+    .mynavbar .nav-link{
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .hero h1{
+        font-size: 3rem;
+     }
+     .hero h4{
+        font-size: 1.5rem;
+     }
+    .hero a{
+        font-size: 1.8rem;
+     }
+     .home .heart{
+        display: none;
+    }
+    .home .couple h3 {
+        font-size: 5rem;
+    }
+    .mynavbar .offcanvas{
+        width: min-content;
+        
+    }
+}
