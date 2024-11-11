@@ -36,3 +36,25 @@ Berikut adalah langkah untuk mengedit proyek ini secara lokal di **VS Code**:
 1. Clone repositori ini:
    ```bash
    git clone https://github.com/ZidanKazali84/fusa-weding.git
+
+##Penggunaan
+Anda dapat mengakses setiap fitur langsung di halaman utama. Pastikan Anda telah mengaktifkan Live Server agar setiap perubahan yang dilakukan dapat langsung terlihat pada browser.
+
+##Kontribusi
+Kami mengundang kontribusi dari siapa saja. Silakan ikuti langkah berikut untuk memulai:
+
+Fork repositori ini.
+Buat branch baru untuk fitur atau perbaikan (git checkout -b nama-fitur-baru).
+Commit perubahan Anda (git commit -m 'Menambahkan fitur X').
+Push ke branch (git push origin nama-fitur-baru).
+Buat Pull Request.
+Jika Anda memiliki pertanyaan tentang kontribusi, silakan hubungi kami di bagian kontak.
+
+##Lisensi
+Proyek ini dilisensikan di bawah lisensi MIT - lihat file LICENSE untuk detail lebih lanjut.
+
+##Kontak
+Jika ada pertanyaan atau saran, Anda bisa menghubungi kami melalui:
+
+Email: zidkaz456@gmail.com
+WhatsApp: +62 [Nomor WhatsApp Anda]
