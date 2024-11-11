@@ -1,6 +1,6 @@
 # Fusa-Weding
 
-![Status Build](https://img.shields.io/badge/build-In_Progess-brightgreen) ![[Lisensi](https://github.com/ZidanKazali84/fusa-weding?tab=MIT-1-ov-file)](https://img.shields.io/badge/license-MIT-blue)
+![Status Build](https://img.shields.io/badge/build-In_Progess-brightgreen) ![Lisensi](https://img.shields.io/badge/license-MIT-blue?link=https%3A%2F%2Fgithub.com%2FZidanKazali84%2Ffusa-weding%3Ftab%3DMIT-1-ov-file)
 
 Undangan pernikahan online dengan fitur lengkap.
 
