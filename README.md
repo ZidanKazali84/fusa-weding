@@ -11,7 +11,7 @@ Undangan pernikahan online dengan fitur lengkap.
 - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
 - [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
+- [Lisensi]([#lisensi](https://github.com/ZidanKazali84/fusa-weding?tab=MIT-1-ov-file))
 - [Kontak](#kontak)
 
 ## Fitur
