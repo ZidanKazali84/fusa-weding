@@ -57,4 +57,4 @@ Proyek ini dilisensikan di bawah lisensi MIT - lihat file LICENSE untuk detail l
 Jika ada pertanyaan atau saran, Anda bisa menghubungi kami melalui:
 
 Email: zidkaz456@gmail.com
-WhatsApp: +62 [Nomor WhatsApp Anda]
+WhatsApp: +62 83829401003
